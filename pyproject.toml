@@ -1,0 +1,24 @@
+[project]
+name = "4-mirascope-pydantic-batch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncio>=4.0.0",
+    "dotenv>=0.9.9",
+    "fastparquet>=2024.11.0",
+    "huggingface-hub>=0.35.1",
+    "jupyter>=1.1.1",
+    "limits>=5.5.0",
+    "mirascope>=1.25.6",
+    "openai>=1.109.1",
+    "pandas>=2.3.2",
+    "pyarrow>=21.0.0",
+    "pydantic>=2.11.9",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
