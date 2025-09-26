@@ -4,6 +4,13 @@ This project provides a simple and efficient toolkit for processing hundreds to 
 
 It uses [Mirascope](https://mirascope.com/) for interacting with LLMs, [Pydantic](https://docs.pydantic.dev/) for data validation, and Python's `asyncio` for concurrency.
 
+## Results
+![Benchmark Results](benchmark_results.png)
+
+Above is the results of DDoSing OpenRouter with concurrent requests using the following rate limit settings:
+- Max tokens per minute = 100000
+- Max concurrent API calls = 1000
+
 ## Key Features
 
 - **Asynchronous Batch Processing**: Process lists of prompts or pandas DataFrames in parallel.
@@ -17,8 +24,8 @@ It uses [Mirascope](https://mirascope.com/) for interacting with LLMs, [Pydantic
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/brickbrycebrick/panda-batch.git
+   cd panda-batch
    ```
 
 2. **Set up the environment and install dependencies:**
