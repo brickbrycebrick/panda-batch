@@ -17,7 +17,7 @@ It uses [Mirascope](https://mirascope.com/) for interacting with LLMs, [Pydantic
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/brickbrycebrick/panda-batch.git
    cd your-repo-name
    ```
 
